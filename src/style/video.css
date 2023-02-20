@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+    background-color: black;
+}
+
+
+.navbar{
+   margin-bottom: 0px;
+}
+
+.bb{
+    padding-top: 0%;
+}
+
+.video-item {
+    display: flex !important;
+ 
+    cursor: pointer;
+}
+
+.video-item.item {
+    max-width: 200px;
+    max-height: 250px ;
+}
+
+
+
+
+.cnt{
+    
+    color: #fff;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 700px;
+    z-index: 1;
+}
+
+
+
+
+.video-item.item{
+
+   
+    font-size: 13px;
+    font-weight: 100;
+    height: 200px;
+   
+    overflow: hidden;
+    padding-top: 5px;
+    text-align: left;
+    text-decoration: none;
+    text-overflow: ellipsis; 
+
+}
+
+.five-wide-column{
+   
+    padding: 4px;
+    margin-bottom: 22px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out; 
+}
+ 
+
+
+
+ 
